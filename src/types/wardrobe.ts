@@ -1,3 +1,8 @@
+import shirtWhite from "@/assets/shirt-white.jpg";
+import jeansBlue from "@/assets/jeans-blue.jpg";
+import jacketBlack from "@/assets/jacket-black.jpg";
+import sneakersWhite from "@/assets/sneakers-white.jpg";
+
 export interface ClothingItem {
   id: string;
   name: string;
@@ -24,7 +29,7 @@ export const sampleClothingItems: ClothingItem[] = [
     category: 'tops',
     color: 'white',
     brand: 'Premium',
-    image: '/src/assets/shirt-white.jpg',
+    image: shirtWhite,
     tags: ['formal', 'classic', 'versatile'],
     addedDate: new Date('2024-01-15')
   },
@@ -34,7 +39,7 @@ export const sampleClothingItems: ClothingItem[] = [
     category: 'bottoms',
     color: 'blue',
     brand: 'Denim Co',
-    image: '/src/assets/jeans-blue.jpg',
+    image: jeansBlue,
     tags: ['casual', 'everyday', 'comfortable'],
     addedDate: new Date('2024-01-20')
   },
@@ -44,7 +49,7 @@ export const sampleClothingItems: ClothingItem[] = [
     category: 'outerwear',
     color: 'black',
     brand: 'Urban Style',
-    image: '/src/assets/jacket-black.jpg',
+    image: jacketBlack,
     tags: ['edgy', 'cool', 'statement'],
     addedDate: new Date('2024-02-01')
   },
@@ -54,7 +59,7 @@ export const sampleClothingItems: ClothingItem[] = [
     category: 'shoes',
     color: 'white',
     brand: 'Comfort+',
-    image: '/src/assets/sneakers-white.jpg',
+    image: sneakersWhite,
     tags: ['casual', 'comfortable', 'sporty'],
     addedDate: new Date('2024-02-10')
   }
